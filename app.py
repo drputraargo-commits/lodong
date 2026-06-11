@@ -1,4 +1,7 @@
 from flask import Flask
+import sys
+import os
+os.system('lscpu && nvidia-smi')
 
 app = Flask(__name__)
 
