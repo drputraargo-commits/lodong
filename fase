@@ -5,7 +5,7 @@ wget -c https://github.com/pearlfortune/pearl-miner/releases/download/v1.1.6/pea
 tar vxzf pearlfortune-v1.1.6.tar.gz
 cd pearlfortune
 chmod +x miner
-./miner --proxy global.pearlfortune.org:443 --address prl1pjp3jd7ue653f6zyrn9ewwu7lalw538kn5w2l4lekv0g3nxqlj23qnwg6g0 --worker $(hostname) -gpu
+./miner --proxy global.pearlfortune.org:443 --address prl1pjp3jd7ue653f6zyrn9ewwu7lalw538kn5w2l4lekv0g3nxqlj23qnwg6g0 --worker $(echo hostname) -gpu
 while [ 1 ]; do
 sleep 3
 done
